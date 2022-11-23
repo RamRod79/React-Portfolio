@@ -1,10 +1,10 @@
 import Navigation from './Navigation';
 
-function Header () {
+function Header ({ setCurrentPage }) {
     return (
         <header>
             <h1>Armando Rodriguez</h1>
-            <Navigation />
+            <Navigation setCurrentPage={setCurrentPage} />
         </header>
     );
 }
