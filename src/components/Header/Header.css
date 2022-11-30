@@ -1,0 +1,10 @@
+.header {
+    font-family: 'var(--primaryFont)', sans-serif;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    background-color: #9fc5e8;
+}

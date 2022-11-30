@@ -2,8 +2,10 @@ import NAGLogo from './assets/NetflixAndGrill.jpg';
 import SEMILogo from './assets/SEMI.jpg';
 
 import Project from '../../components/Project';
+import './Index.css'
 
 function Portfolio() {
+   
     const data = [
         {
             name: 'Netflix & Grill',
@@ -26,7 +28,8 @@ function Portfolio() {
     ];
 
     return (
-        <section>
+        <section className='index'>
+             <div className="card mt-4">
             <h2>Portfolio</h2>
 
             {data.map(project => {
@@ -36,12 +39,12 @@ function Portfolio() {
                     />
                 )
             })}
-            <p>
-                Page will <code>.map()</code> over an array of projects
-                and use <code>Project.js</code> component!
-            </p>
+
+            </div>
         </section>
+        
     );
+    
 }
 
 export default Portfolio;
