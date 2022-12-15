@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Portfolio from './pages/Portfolio/Index';
+import Resume from './pages/Resume/Resume';
 
 
 
@@ -22,6 +23,8 @@ function App() {
         return <Portfolio />;
       case 'contact':
         return <Contact />;
+        case 'resume':
+          return <Resume />;
       default:
         return <About />;
     }

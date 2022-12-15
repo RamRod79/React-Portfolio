@@ -1,45 +1,48 @@
-import React, { useContext } from 'react'
-import './Contact.css'
+// import React, { useContext } from 'react'
+
+import React, { useRef, useContext } from "react";
+import emailjs from "@emailjs/browser";
+import "./Contact.css";
 
 function Contact() {
-    return (
-        <section className='contact'>
-            
-            <div className="card mt-4">
-              <h2>Contact</h2>
-            <form>
-  {/* <!-- Name input --> */}
-  <div class="form-outline mb-4">
-    <input type="text" id="form4Example1" class="form-control" />
-    <label class="form-label" for="form4Example1">Name</label>
-  </div>
+  const form = useRef();
 
-  {/* <!-- Email input --> */}
-  <div class="form-outline mb-4">
-    <input type="email" id="form4Example2" class="form-control" />
-    <label class="form-label" for="form4Example2">Email address</label>
-  </div>
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  {/* <!-- Message input --> */}
-  <div class="form-outline mb-4">
-    <textarea class="form-control" id="form4Example3" rows="4"></textarea>
-    <label class="form-label" for="form4Example3">Message</label>
-  </div>
+    emailjs
+      .sendForm(
+        "service_6n9rvwc",
+        "template_arofw9b",
+        form.current,
+        "EFGihzfZD5Qt2Gd_Q"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
-  {/* <!-- Checkbox --> */}
-  <div class="form-check d-flex justify-content-center mb-4">
-    <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
-    <label class="form-check-label" for="form4Example4">
-      Send me a copy of this message
-    </label>
-  </div>
-
-  {/* <!-- Submit button --> */}
-  <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
-</form>
-</div>
-        </section>
-    );
+  return (
+    <section className="contact">
+      <div className="card mt-4">
+        <h2>Contact</h2>
+        <form className="form" ref={form} onSubmit={sendEmail}>
+          <label className="label">Name</label>
+          <input className="textarea" type="text" name="user_name" />
+          <label className="label">Email</label>
+          <input className="textarea" type="email" name="user_email" />
+          <label className="label">Message</label>
+          <textarea className="textarea" name="message" />
+          <input className="input" type="submit" value="Send" />
+        </form>
+      </div>
+    </section>
+  );
 }
 
 export default Contact;

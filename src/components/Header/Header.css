@@ -1,10 +1,19 @@
-.header {
+ .header {
     font-family: 'var(--primaryFont)', sans-serif;
-    height: 50px;
+}
+
+h1 {
+    color: black;
+    font-size: x-large;  
+}
+
+.space {
+    background-color: #285293;
+    display: inline-flex;
+    height: 75%;
     width: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
-    color: blue;
-    background-color: #9fc5e8;
-}
+    opacity: .75;
+  
+   }

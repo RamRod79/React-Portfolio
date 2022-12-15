@@ -1,4 +1,5 @@
-.about {
+
+.resume {
     background-color: #285293;
     height: 50%;
     width:50%;
@@ -7,23 +8,17 @@
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-}
+ }
 
-p {
-    color: black;
-   }
-
-.circle {
-    color: #285293;
+.resDoc {
     display: inline-flex;
     height: 50%;
     width: 100%;
     justify-content: center;
     align-items: center;
-    opacity: .25;
-    border-radius: 15px;
-   }
-
-   .card-body {
-    size: small;
-   }
+    opacity: .85; 
+    box-shadow: 0px 0px 3px #5f5f5f,
+    0px 0px 0px 5px #ecf0f3,
+    8px 8px 15px #a7aaa7,
+    -8px -8px 15px #fff;
+}

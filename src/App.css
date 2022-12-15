@@ -1,12 +1,11 @@
-*{
-  padding: 25px;
-  color: rgb(136, 155, 224);
+* {
+  padding: 10px;
+  font-family: 'Marcellus SC', serif;
+  background-color: rgb(215, 229, 240);
 }
 
-h1 {
-  color: black;
-}
 
 h2 {
   color: black;
 }
+
