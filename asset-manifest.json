@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.4fafe545.css",
+    "main.js": "/react-portfolio/static/js/main.67243d98.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Resume1.jpg": "/react-portfolio/static/media/Resume1.be343d784aff022991a2.jpg",
+    "static/media/Resume0.jpg": "/react-portfolio/static/media/Resume0.2a4e8f3730339292128c.jpg",
+    "static/media/profile-pic.jpg": "/react-portfolio/static/media/profile-pic.897292078e24a586bb63.jpg",
+    "static/media/NetflixAndGrill.jpg": "/react-portfolio/static/media/NetflixAndGrill.ac5dc9b114aab60613d1.jpg",
+    "static/media/TFTLogo.jpg": "/react-portfolio/static/media/TFTLogo.98e2795da21cd2180e4e.jpg",
+    "static/media/Resume2.jpg": "/react-portfolio/static/media/Resume2.87246a1f4d48933544dd.jpg",
+    "static/media/SEMI.jpg": "/react-portfolio/static/media/SEMI.61646c69ac1c8c1e394c.jpg",
+    "static/media/space.jpg": "/react-portfolio/static/media/space.6a00f4674db7306bbdcf.jpg",
+    "static/media/Weather.jpg": "/react-portfolio/static/media/Weather.fb21c01be4552af22c92.jpg",
+    "static/media/WDS.jpg": "/react-portfolio/static/media/WDS.b42f8f7e766af503c4c6.jpg",
+    "static/media/PGLogo.jpg": "/react-portfolio/static/media/PGLogo.d2da0966f24ca04f144c.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.4fafe545.css.map": "/react-portfolio/static/css/main.4fafe545.css.map",
+    "main.67243d98.js.map": "/react-portfolio/static/js/main.67243d98.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fafe545.css",
+    "static/js/main.67243d98.js"
+  ]
+}
