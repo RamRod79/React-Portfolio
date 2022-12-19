@@ -122,7 +122,7 @@ If other developers would like to contribute, you can contact me at armando.rod7
 ## URL
 GitHub: https://github.com/RamRod79/react-portfolio.git
 
-Deployed URL: https://ramrod-portfolio.herokuapp.com/
+Deployed URL: https://RamRod79.github.io/react-portfolio
 
 ## Contact Info
 
