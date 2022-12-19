@@ -15,7 +15,7 @@ function Footer() {
                                 <a className="navItemLink" href="https://www.linkedin.com/in/armando-r-rodriguez/" target="_blank" ><i className="fab fa-linkedin fa-xl"></i></a>
                             </li>
                             <li className="navItem">
-                                <a className="navItemLink" href="armando.rod79@gmail.com" target="_blank" ><i className="fa fa-envelope"></i></a>
+                                <a className="navItemLink" href="https://twitter.com/ArmandoRod79" target="_blank" ><i className="fab fa-twitter"></i></a>
                             </li>
                         </ul>
                 </div>

@@ -12,10 +12,15 @@
 
 }
 
-.learn {
+.link {
     width: 300px;
     height: 50px;
+    text-align: center;
     display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex: auto;
     margin: 10px;
     padding: 1px;
 

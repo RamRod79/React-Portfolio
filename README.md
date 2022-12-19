@@ -87,13 +87,15 @@ You may also see any lint errors in the console.
 
 ## Deployed Link
 
-The link to the deployed application is:  https://ramrod-jate.herokuapp.com/.
+The link to the deployed application is:  https://ramrod-portfolio.herokuapp.com/.
 
 ## Usage
 
-![Screenshot of app being used.](./assets/images/Screenshot01.jpg)
-![Screenshot of app being used.](./assets/images/Screenshot03.jpg)
-![Screenshot of app being used.](./assets/images/Screenshot02.jpg)
+![Screenshot of app Header/Nav](./Assets/P1.jpg)
+![Screenshot of app Apout Page.](./Assets/P2.jpg)
+![Screenshot of app Portfolio Page.](./assets/P3.jpg)
+![Screenshot of app Contact Page.](./Assets/P4.jpg)
+![Screenshot of app Portfolio Page.](./assets/P5.jpg)
 
 ## Credits
 
@@ -120,7 +122,7 @@ If other developers would like to contribute, you can contact me at armando.rod7
 ## URL
 GitHub: https://github.com/RamRod79/react-portfolio.git
 
-Deployed URL: https://ramrod-jate.herokuapp.com/
+Deployed URL: https://ramrod-portfolio.herokuapp.com/
 
 ## Contact Info
 

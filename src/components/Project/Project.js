@@ -6,7 +6,8 @@ function Project ({ data }) {
             <h2>{data.name}</h2>
             <p>{data.description}</p>
             <img className="image" src={data.imageUrl} alt={data.description}/>
-            <a className='learn' href={data.deployedUrl} target="_blank" rel="noreferrer">Learn More</a>
+            <a className='link' href={data.deployedUrl} target="_blank" rel="noreferrer">Deployed Url</a>
+            <a className='link' href={data.githubUrl} target="_blank" rel="noreferrer">Github Repo</a>
         </div>
     );
 }
