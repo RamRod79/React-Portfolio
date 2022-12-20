@@ -87,7 +87,7 @@ You may also see any lint errors in the console.
 
 ## Deployed Link
 
-The link to the deployed application is:  https://ramrod-portfolio.herokuapp.com/.
+The link to the deployed application is:  https://RamRod79.github.io/react-portfolio.
 
 ## Usage
 
