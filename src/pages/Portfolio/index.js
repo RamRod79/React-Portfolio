@@ -29,7 +29,7 @@ function Portfolio() {
             name: 'Farmer To-Do (Full Stack App)',
             description: 'A simple application which allow Farmers to manage their daily tasks and improve their efficiency!',
             imageUrl: TFTLogo,
-            deployedUrl: 'https://totoro-farmer.herokuapp.com/',
+            deployedUrl: 'https://infinite-cliffs-46127.herokuapp.com/',
             githubUrl: 'https://github.com/Conklinj09/farmer-to-do',
         },
         {
