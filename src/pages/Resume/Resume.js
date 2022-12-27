@@ -20,7 +20,7 @@ function Resume() {
                 <h2>My Resume </h2>                
                 <div className='card-body'>
             
-            Full Stack Web Developer! UCLA Extension Coding Bootcamp GradUATE
+            Full Stack Web Developer! UCLA Extension Coding Bootcamp Graduate
             <a className="navItemLink" href="/Assets/Resume.pdf" download><i className="fas fa-file-pdf"></i>Download PDF</a>
             <p><img className="resDoc" src={resDoc0} alt="Resume"/> </p>
             <p><img className="resDoc" src={resDoc1} alt="Resume"/> </p>
